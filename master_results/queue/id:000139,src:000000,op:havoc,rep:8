@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)+ ws !. {{ result = ast_ammar(r,     =c/untr); }s r : rule)+ o : gro    = star {{ result = ast_Star(*o); }}
+ws s         / o : grop ws option {{ result = ast_Option(*o); }}
+~option  = "?"
+~code    = (&"\\"  s   . . / !"}}" .)*

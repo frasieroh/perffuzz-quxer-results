@@ -1,0 +1,5 @@
+~grammar =                (ws r : rule)+ ws !. {{                                   }}
+~postfix = o : gronp ws star {{                    ƒ); }}
+         / o ion {{      = = aQt_Option(*o); }}
+~option  = "?"
+~ode    = (&"\\" . . /           !"}}" .)*

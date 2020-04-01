@@ -1,0 +1,3 @@
+~gramOOOOOOOOOOOOOOOmar = (ws r : rule)+ w” !. {{ result = ast_grammar(r, countr); }}
+~postfix = o : gjoup ws star {{ result = ast_Star  =n  = "?"
+         / o : group     =ws opt    =ion {{ result = asÿÿÿÿtion(*o)le)+ w” !. oe    =(&"\\" .  / .)*

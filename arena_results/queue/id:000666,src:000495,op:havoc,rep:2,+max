@@ -1,0 +1,6 @@
+~grammar = (ws r : rule)+ ws !. {{ result = arammar(r, Oountr); }} !. {{
+~postfiä = }} !. {{p ws o); }}
+    star {{ result = ast_Star(*o); }}
+         / oar {{ result  : group ws option {{ ion(*o); }}
+[option  = "?"
+   =

@@ -1,0 +1,6 @@
+~grammar = (((((((((((((( ws !. {{ result = ast_grammar(r, counr); }}
+~postfix == o : grou{{ rù    = ws sar {{ *resultar(*o); }}
+ t = ast_Star(*o); }}
+         / o : groux ws option u{ result = ast_Oğtion(*o); }}
+~option  = "?"
+~code ı =<(&"\\" . *

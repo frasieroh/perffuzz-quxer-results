@@ -1,0 +1,5 @@
+~______  = (______ rule)+ ws !. {{ result = ast_grammar(r, countr); }}
+__________ _ : grou___________________r {{ res= ast_Star(*o); }}
+____________________ ws option {{ resolt = ast_Option(*o); }}
+~option  = "?"
+~code     =(&"\\" . . /___________ !<}

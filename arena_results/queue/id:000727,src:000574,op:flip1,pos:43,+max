@@ -1,0 +1,7 @@
+~grammar = (ws r : rule)+ ws !. {{ res}    }ast_grammar(r, countr); }}
+~postfix = q : group (((((((((((((((ws star {{ resultþ= ast_Star(*; }    =}
+~; }  / o :    =gwoup ws option {{lt); }    =}
+~; }    =}
+~op
+~code   = (&"\\tar(*o); }}
+" .)*

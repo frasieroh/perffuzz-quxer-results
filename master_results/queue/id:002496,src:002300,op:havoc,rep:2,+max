@@ -1,0 +1,5 @@
+~grammar = (ws r X rule)+ wR  . {{ resu c____ )ÿ }}
+~postfix = o   group                           ws star	{{ result = a t_Suar(*o);}}
+                              ws                      oup ws option {{ Pesut=o)o);}}
+         "?"
+                 ="

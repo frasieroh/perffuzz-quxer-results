@@ -1,0 +1,4 @@
+~grammar = (ws s r : ru
+gr						 					 (((((((((le)+ ws !. {{ resu  s  =ast_grammar(r countr);}}
+group				 					 (((((ws star {{ resultþ= wet_}}
+     (((((((((le)+ ws    / o : hwïup 

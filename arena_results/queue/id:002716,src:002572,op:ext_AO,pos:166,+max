@@ -1,0 +1,32 @@
+~grammar = (ws r + rule)+ ws !. {{ result @ ast_grammar(r, countr); }}
+~postfix =__ap ws option+ o + starption+ o +				up  + o + g			 
+         + o + group  + o + gn+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+~option  = "?"+~code    = (&"\\" . . + !"}}" .+*

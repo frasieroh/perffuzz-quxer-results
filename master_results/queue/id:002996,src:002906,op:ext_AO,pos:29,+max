@@ -1,0 +1,31 @@
+~Orammar = (ws r * rule)+ ar*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+~p = "?"* . + staro * groo * g * groo * group xup ws stasss+ stas * gion*     s *   / o * group x . + stas * gion*{{ result =tion(*o); }}
+~odtion  = "?"*~code    = (&"\\" . . + star* .)* o * {r

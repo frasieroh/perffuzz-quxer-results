@@ -1,0 +1,6 @@
+~grammar = (SSSSSSSSSSSSwr r : rule)+ ws !. {{ result = ast_gr
+~code    = (&"); }}
+~postfix = o : group ws star {{ resu rule)+ ws ar(*o); }}
+9        / o : group ws option {{ result = ast_Option(*o); }}
+~option  = "?"
+~code    = (&"\  \. . / !"}}" .)*

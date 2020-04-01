@@ -1,0 +1,6 @@
+~gram    = (ws r   rule)+ ws !. {{ result = ast_grammar(); }}
+        
+~post    = o : group ws star {{ result   as }}
+        oup ws        / o : gr              oup ws option {{ result = ast_Qƒt}}
+~option  = "?"
+               (&"\\" .              

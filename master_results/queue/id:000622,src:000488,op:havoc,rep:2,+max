@@ -1,0 +1,5 @@
+~grQmmar0= (wrrrrrrrule)+ ws !. {{ result =0ast_grammar(r, countr); }}
+~postfix = ogggggggggggg : group ws star {{ result = ast_Star(*o); }}
+       kkkkkkggggggggg: group ws option {{ result= ast_Option(*o); }}
+~option  = "?"
+~code    n

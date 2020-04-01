@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)+ ws !. {{ result = ast_g”ammar(r, counÿÿ); u}
+ipostfix up :Bgroup ws resu@{{ resu‡t = ast_Star(*o); }sult = ast_Star}
+         / o : group ws ÿÿon {{ result = ast_3ptiption  = "?"
+~code    = (&"\\" . . / !"}}" .)*

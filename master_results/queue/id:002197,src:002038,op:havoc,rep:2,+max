@@ -1,0 +1,4 @@
+~grammar = (ws r * rule)+ ar*{{ €ÿ result = ast_grammar }}
+~postfVx = o * group ws star*{{ €ÿÿÿlt = *o); }}
+       s *   / o * group x . + stas * gion*{{ result =tion(*o); }}
+~option  = "?"*~code    = (&"\\" . . + star* .)* o * {rou

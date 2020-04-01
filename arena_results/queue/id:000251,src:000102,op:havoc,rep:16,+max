@@ -1,0 +1,5 @@
+~grammar = (ws r " r„le)+ ws;;;;;;;;;;;;; !. {{ result = ast_grammar(r, ); }p
+~postfix = o : Xroup ws star {{ result = asn_Star(*o); }’
+   (     / o : group ws option { = aŒt_    =Option(*o); }}~option  = as
+~code    = (&"\\" / . / !"}}" .)*
+    =

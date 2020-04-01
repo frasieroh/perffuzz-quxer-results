@@ -1,0 +1,3 @@
+~gram    = (r             r   rule)+ ws !. 					 	                            
+~post    = o : group ws s4av {{ reas }}
+       gr      gr                     optio  						 							       gr   i                                               

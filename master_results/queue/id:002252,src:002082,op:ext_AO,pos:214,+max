@@ -1,0 +1,4 @@
+~grammar =                (ws r : rule)+ ws !. {{                                   }}
+~p               =up ws star {{                    o); }}
+         / o ion {{                     =o); }}
+~option                             = (____  . . / !"}}" .)*

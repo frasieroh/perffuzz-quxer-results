@@ -1,0 +1,12 @@
+~gram    = (r             r   rule)+ ws                                       
+~pobt    = o   group ws s						 									
+
+
+
+
+
+
+
+
+ 
+       gr      gr                     opti i              			                                                          

@@ -1,0 +1,4 @@
+~grammar = (ws r : ru
+group (((((((((le)+ ws !. {{ resu  s   {{ resultþ= astcountr); }}
+group (((((((((((roup ((((((((ws star {{ resultþ= ast_}}
+         / o : gwoup €s

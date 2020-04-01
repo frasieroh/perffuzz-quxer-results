@@ -1,0 +1,2 @@
+~grammar = (ws r : rule)+ ws !. {{ result = ast_grammar(r, countr); }}
+~p_st________________ÿ s

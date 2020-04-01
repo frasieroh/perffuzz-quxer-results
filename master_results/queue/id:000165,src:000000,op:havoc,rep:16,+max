@@ -1,0 +1,5 @@
+~grommar = (ws r : rule)+ ws !. {{ result@= ast_grntr);Š}
+~podtfix = o : group ws star {{ result = ast_Star(*o  ˜˜˜˜˜˜˜˜˜˜˜=option {}}
+         / j : grop ws option {{ result Option(*o); }}
+~option  =XXXXXXX "?"
+Ôcode î  = (&"\\" . ; / !"}}" .)*

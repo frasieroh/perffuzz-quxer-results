@@ -1,0 +1,20 @@
+~grammar = (ws r : ru
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+esul„ = ast_grammar(r, countr); }}
+~postfix = o : grouý ws star {{ result = ast_Star(*o);n}}
+         / o : gcoup ws option {{ resu    =lt = ast_Opti…n(*o); }}
+~option  = "?"
+~code    = (&"\\" / . / !"}}" .)*

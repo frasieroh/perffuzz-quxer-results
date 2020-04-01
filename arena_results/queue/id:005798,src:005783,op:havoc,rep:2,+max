@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)* ws !. o : group ws:st{{ }}
+(ws r : rule)* ~cix = (ws r : rule)* ~cix = o : group ws:star*{{ result = ast_Star(*o); }}
+         / o : group ws:opt ws !. o : group ws:st{{ result}}
+(ws r : rule ws !. o : group ws:s/ .*/ !"}}" .)*

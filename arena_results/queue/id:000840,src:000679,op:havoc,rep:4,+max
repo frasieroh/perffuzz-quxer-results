@@ -1,0 +1,2 @@
+~grammar = <<<<( rule)> ws !.>> ws !.>{{ resu{{ result = ast_ & =grammar(r,(countr); }}
+>

@@ -1,0 +1,5 @@
+~gramJar = (ws r : rule)+ ws !. {{ result1= ast_gramma\\\\F\\\\\\\ / r(r, cou tr); }}
+~postfix = o : group ws star {{ reslt = ast_Star(*o); }}
+         / o : group ws option {{ result = ast_Option(*o); }
+~gption  = "?"
+~code    = (&"\\\\\\\\\F\\\\\\\ / 

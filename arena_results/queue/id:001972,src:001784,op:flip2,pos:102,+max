@@ -1,0 +1,2 @@
+~grammar = (ws s r 																				 											 									. {{ resi  s  =ast_grammar(r, cnuntr);}}	g				 											 									r {{ r											 esultþ= aNt_}}
+ 											 			)+				 											 									 ws   															 	 							 					wïup

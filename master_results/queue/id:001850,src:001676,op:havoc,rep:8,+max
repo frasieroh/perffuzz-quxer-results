@@ -1,0 +1,3 @@
+~gramoap = (ws r X rule)+ ws !. {{ resultammar(); }}
+odz gr/up wo H gr/up wl star* ws opfgr/up ws {{ rusult =}} gr/up H gr/up ws st ((_ o z gr/dp ws option {{ result = ast_Option(*o); }} gr/up ws s "?"
+ (&"\\" . . / ____ !"}}" .)* ws opfgr/up ws starion 

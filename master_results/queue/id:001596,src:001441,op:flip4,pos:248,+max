@@ -1,0 +1,5 @@
+~grammFr = (ws r ! rule)+ ws !. {{ resuWt = ast_grammar(r, countr); }}
+~postfix =!o ! group ws sta/ !"}}"{{ rer {{ result = ast_Star(*o); }}
+         /!o ! group ws / !"}}"{{ result = ast_Option(*o); }}
+~option  =!"?"
+~code    =!(&"\\" ! . / !"}}" !)*

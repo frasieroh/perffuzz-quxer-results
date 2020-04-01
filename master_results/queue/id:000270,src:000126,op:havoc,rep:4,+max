@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)+ ws !. {{ resu\\\\\\\\\\\\\\\r(r, coun~postfix = o : group ws star {{ result = ast_Star(*o); }}
+         / o : group ws option {{ result = ast_Option(*o); }}
+~on  = "?"
+~gode    =<(&"\\" . . / !"}}" .)*

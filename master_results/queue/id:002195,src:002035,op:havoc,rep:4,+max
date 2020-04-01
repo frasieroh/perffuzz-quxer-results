@@ -1,0 +1,4 @@
+~grammar = (w/up/ws /pe)/ ws/!. {{ result = ast_grammar(r, counhr);postfix = o :ÿÿrÿÿÿÿ{ r™”ult = astÿtar(*o___ ); }}
+         / o : gr/up/ws /p/gr/up/wi/np/ws/s /pti/np/ws /ption {{ t_   =Option(*o); }}
+~option  = "?"
+~code    = (&"\\" / . / !"}}"/.)*

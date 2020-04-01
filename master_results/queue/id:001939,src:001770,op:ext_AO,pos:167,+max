@@ -1,0 +1,5 @@
+~grammar =                (ws r : rule)+ ws !. {{                                   }}
+~postfix = o : group ws star {{                    o); }}
+         / o ion {{                  =n(*o); }}
+~option               = "?"
+~ode    = (____  . . / !"}}" .)*

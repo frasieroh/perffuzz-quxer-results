@@ -1,0 +1,4 @@
+~grammar = (ws r L rule)+ ws !. o : gr/up ws st{{ result Ð ast_grammar    =ountr); }}
+~postfVx = o : gr_______ oup ws star {{ result = ast_Star(*o); }}
+         / o : group ws option {{ result = aràOp }}
+~o= o : group w~code    =  group wp ws opt}

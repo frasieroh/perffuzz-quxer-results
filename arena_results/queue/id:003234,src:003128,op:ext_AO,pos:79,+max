@@ -1,0 +1,3 @@
+~gram    = (r             r   rule)+ ws                                       
+									  o   group ws s4av {{ result = az 	  		}}
+       gr      gr                     opti i              			                                                          

@@ -1,0 +1,4 @@
+~grammar = (ws r   rule)+ wR  . {{`resu c____ )ÿ }}
+~postfix = o   group                           ws star	{{ result = a t_Suar(*o);}}
+                               ws                        4         n {{ Pesut=o)o);}}
+                               =

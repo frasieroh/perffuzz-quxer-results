@@ -1,0 +1,8 @@
+~grammar = ( s r X r le)+ ws !. {{ result = ast_gramma\(r, co}}
+/ 0 0 
+~postfix = o : g
+oup ws star {{ result = ast_Star(*o); }}
+/ 0 0 &  1 o : gr &  1 o : g
+n {{ result = ast_Option(*o); }}
+~option  = "?"
+~code    = ( &"\\" . . / &"\\" . . / !"}}" .	*

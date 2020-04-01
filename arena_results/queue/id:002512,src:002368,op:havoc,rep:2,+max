@@ -1,0 +1,5 @@
+~gram    = (r             r   rule)+ ws !. 					 	               							
+                  						group ws s4av {{ result = as }}
+       gr      gr                     option {{ result = astQ-ƒt}}
+~option0 = "?"
+                                     

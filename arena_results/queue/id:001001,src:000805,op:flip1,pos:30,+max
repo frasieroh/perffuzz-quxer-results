@@ -1,0 +1,4 @@
+~grammar = (ws r   rule)+ ws !n {{ ress    =mmar(r,`countr); }}
+~psssssssssssssssostfix = ysssssotar {{ re~ult = astfStar(*o)  }}
+        D/ o : group ws option {{ result = ast_Option(*o); }}
+~optionjjjjjjjjjcodeaaaaaasssssostfixaaaaaammar = (ws aaa / !

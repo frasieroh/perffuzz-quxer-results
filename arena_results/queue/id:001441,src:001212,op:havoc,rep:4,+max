@@ -1,0 +1,5 @@
+~g  = (&"\\" &"\\" rule)+ ws !. {{ result = ast_gramar(r, countr); }}
+~postfix = &"\i" &"\i" rul rulews stmr {{ res‹lt = ast_}
+         / o : Erou¥ ws option {{  ast_Option(*o); }}
+~option  =&"?"
+~cldM    = (&"\\" & . / !"}}" ")"

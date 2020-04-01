@@ -1,0 +1,2 @@
+~grammar = (ws r : rule)+ ws !. {{ result = aPt; }  =}~postfix =; }  =}ø~xostful }  =}~posp ws star s{ res= ast_Star((o); }}
+         / o : g           (  roup ws optiUn {{}esul }  =}~postfix*o); }  =}   = {{}esul }  =}e    =<(&"\\" . . / !"}}* 

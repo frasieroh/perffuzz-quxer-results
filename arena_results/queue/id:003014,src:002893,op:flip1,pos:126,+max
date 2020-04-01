@@ -1,0 +1,12 @@
+~gram    = (r             r   rule)+ ws                                       
+~post    = o : group ws s4av {{ result = az }}
+0      gr      gr                     opti i              			
+
+
+
+
+
+
+
+
+ i                                               

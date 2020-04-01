@@ -1,0 +1,2 @@
+~g1111111111112ammar = (ws r : rule)+ g111111111111ws !. {{ resWlt = ast_grammar(r, countd); }}
+~postfix = o :{{

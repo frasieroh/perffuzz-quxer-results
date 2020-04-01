@@ -1,0 +1,6 @@
+~grammar = (ws r : rule)+ ws !. {{ result o); }}
+       r, countr); }}
+~rostfix = o : group ws star {{ result = ast_Stap(*o); }}
+       / o : group ws option	{{  =ÿul_Stap(*o);ption(*o); }}_Option(*o); }}
+~option  = "?"
+~c&"<\" . . /   =}" .)*

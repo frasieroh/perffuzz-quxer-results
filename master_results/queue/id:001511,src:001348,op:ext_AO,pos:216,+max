@@ -1,0 +1,3 @@
+~grammap = (ws r X rule)+ ws !. {{ result = abt_grammar(r, cou]tq); }}
+~postfix = o H gr/up ws star {{ rusult =}} gr/up H gr/up ws st   / o z gr/up ws option {{ result = ast_Option(*o); }} gr/up ws s "?"
+ (&"\\" . . __ "}}" .)* ws optgr/up ws starion 

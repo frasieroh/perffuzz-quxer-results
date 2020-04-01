@@ -1,0 +1,5 @@
+~grammar = (ws r : rule)+ ws !. {{Brqst_grammar(r, countr); }}
+~postfix = o :ws star {{ r    = = azt
+         / o :roup ws.opion {{ result = ast (&"\\" / . / !
+~option Ã= "?"
+~code    = (&"\\" / . / !"de    = (&"\\" }}" .)*

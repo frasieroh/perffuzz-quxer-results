@@ -1,0 +1,2 @@
+~grammar = <<<¼(ws r : rule)+ ws !. {{ result = ast_grammar(r,(countr); }}
+~

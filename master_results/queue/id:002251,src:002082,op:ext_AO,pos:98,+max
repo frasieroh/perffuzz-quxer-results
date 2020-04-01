@@ -1,0 +1,5 @@
+~grammar =                (ws r : rule)+ ws !. {{                                   }}
+~p                        =r {{                    o); }}
+         / o ion {{                     =o); }}
+~option               = "?"
+~ode    = (____  . . / !"}}" .)*

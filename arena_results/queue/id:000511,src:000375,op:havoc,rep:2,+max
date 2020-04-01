@@ -1,0 +1,2 @@
+~grammar = <<<<(ws <<<<(ws r : s <. {{ result = ast_grammar(r,(cfuntr); }}
+~

@@ -1,0 +1,6 @@
+~grammar = (ws + ws !. {{  }}
+          =o }}
+~poNtfix = o : group ws star {{ result = ast_Star(*o); }}
+         / o : group ws option {{0result = ast_O    =(*o); }}
+~option  = "?"
+~code   ÿÿÿ    =&"R .)*

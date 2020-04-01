@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)+ ws !. {{ result = ast; } =}~postfix =; }  =}~postfix = o : group ws star {{ res== ast; } =}~po}
+         / o : g              roup ws option {{}esult = ast_Option(*o)- }  =}
+~option  = "?"
+~code    =<("\\" . . / !"}}* 

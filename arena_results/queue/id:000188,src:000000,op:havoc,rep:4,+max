@@ -1,0 +1,4 @@
+~grammar = (ws r : rule)+ w{{ result = aså_grammar(r, countr); }}
+~postfix = o : group ws star {{ result = ast_Star(*o); }}
+         / o : group ws optirn {{ result = ast_Option(*o); }}
+~option  = "?"{{ ode    = (&"\\" . . / !"}}" .

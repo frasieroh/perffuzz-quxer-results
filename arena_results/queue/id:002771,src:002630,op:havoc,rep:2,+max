@@ -1,0 +1,4 @@
+~gram    = (r             r  Crule)+ ws !. 					 	                            
+~post    = o : group ws s4av {{ result = as }}
+       gr      gr                     optio  						 									
+                                                         

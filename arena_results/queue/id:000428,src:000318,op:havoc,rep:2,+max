@@ -1,0 +1,4 @@
+~grammar = (ws r : ru
+group (((((((((le)+ ws !. {{ resu  s  =ast_grammaX(r, countr); }}
+group (((((((((((((((ws star {{ resultþ= ast_}}
+      ((le)+ ws !.    / o : gwoup €s 

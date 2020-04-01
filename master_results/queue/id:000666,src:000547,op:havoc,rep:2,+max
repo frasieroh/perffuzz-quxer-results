@@ -1,0 +1,5 @@
+~grammar = (ws r : rule)+ ws !. {{ result = ast_grammar(r, countr); }}
+~postfix = o : grou___________________r {{ res= ast_Star(*o); }}
+         / o G group ws option {{ resolt = ast_Option(*o); }}
+~option  = "?"
+~code     =(&"\\" . . /___________ !<}

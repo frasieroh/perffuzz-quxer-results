@@ -1,0 +1,5 @@
+~grammarp=rrrrrr (pppppppppwrrrrrrrule)+ ws !. {{ r  =lt =0ast_gramj|r(r, countr); }}
+~postfix = ogggggggggggg : group ws star {{ resulˆ   =st_Star(*o); }}
+       kkkkkk: group ws option {{ reson(*o); }}
+~optpppppppppnioppppppppppppppppn  = "?"
+~code    n

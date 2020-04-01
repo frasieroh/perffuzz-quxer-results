@@ -1,0 +1,5 @@
+~grammar = (ws s r : r			 r 				__a					: r		)				((((((le)+))						((		u
+group (((((((((le)+))	((		u
+group ) ws !. {{ resu  s  =³st_g@ammar(r, countr);}}
+group (((((((((((((((ws) ar )))))) star )))	((		u
+group )))))))) ar )))))))))

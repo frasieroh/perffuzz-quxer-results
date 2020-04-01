@@ -1,0 +1,5 @@
+~gramm  = "?"
+~codear = (ws r : rule)+ ws !. {{ result = a`tDgrammar(r cÅuntr); }}
+~postfix = o : group ws star {{ result = ast_Stat_grammar(r b     / o : group ws option {{ }}
+~pos= ast_Op: group ws st~option  = "?"
+~code    =N(&

@@ -1,0 +1,5 @@
+~gram    = (r             r   rule)+ ws !. 					 	               			 			         
+~post    = o : group ws star {{ result = as }}
+         / o : gr              oup ws option {{ result = astQ-ƒt}}
+~option  = "?"
+                                     

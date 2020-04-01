@@ -1,0 +1,12 @@
+~gram    = (r             r   rule)+ ws !. 					 	                            
+~post    = o : group 						 									
+
+
+
+
+
+
+
+
+        gr      gr                     optio  {{ result = astQ-ƒt}}
+~opti                                               

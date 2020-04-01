@@ -1,0 +1,31 @@
+~gram    = (r             r   rule)+ ws !. 					 	                            
+~post    = o : group ws s4av {{ result = as }}
+       gr      gr                     
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+opti                                               

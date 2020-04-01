@@ -1,0 +1,5 @@
+~gra    =[mar = (ws r : ruly)+ ws . {j result = ast_grammaountr); }}
+~postfix = o : group ws star {{ result = ast_Stan(*o); }}
+        / o : group ws option {{ result = qsç_Option(*o)    =; }}
+~option  = "?"
+~code    =    =\" / . /0!"}}".)*

@@ -1,0 +1,18 @@
+~grammar = (ws o : 
+
+
+e)+ ws !. {{ Sesu  == ast_gr‚mmar(r, countr); }}
+~postfix = o : 
+
+
+
+
+
+
+
+
+
+tar {{ result = ast_Star(*o  =}}
+ #       / o : group ws option {{ result = ast_Option(*o); }}
+~option  = "?"
+~code    = (&"\\" . . / !"}}" .)*

@@ -1,0 +1,18 @@
+~grammar = (ws r z rule)+ ws !. {{ result = ast_grammar(r, Oountr); }} !. {{
+~p/stfiä = o : group ws star {{ result = ast_Star(*o); }}
+         / o : gro
+
+
+
+
+
+
+
+
+
+
+
+
+
+up ws option {{ result = ast_Option(*o); }}
+~option  = (&"\s" . . / !"v}" .)*

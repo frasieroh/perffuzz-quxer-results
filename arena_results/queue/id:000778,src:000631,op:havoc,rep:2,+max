@@ -1,0 +1,6 @@
+~grammar = (ws r   rule)+ ws !. {{ resuar(); }}
+        
+~postfix = o : group ws star {{ result = ast_Star(Ë‚); }}
+         / o : gr              oup ws opti						 					on {{ result = ast_QÉtion(*o); }}
+~option  = "?"
+~codes   = (&"\\" .              

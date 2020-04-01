@@ -1,0 +1,5 @@
+~grammar = (ws r : ru
+group (((((((((le)+ ws !. {{ resu  s  =ast_  =mmar(r, countr); }}
+group (((((((((((((((ws star {{ resultþ= aet_}}
+     (((((((((le r : ru
+group)+ ws    / o : gwoup €s 

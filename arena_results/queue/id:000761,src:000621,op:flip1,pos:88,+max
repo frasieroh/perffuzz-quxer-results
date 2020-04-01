@@ -1,0 +1,6 @@
+~grammar = (ws r . rule)+ ws !. {{ resu    =ast_grammar(r, countr); }}
+~postfix = o . gr/up (((((((((((((((ws star {{ result˛= ast_Star(*o); }}
+   (((((((((((((((wp ws option {{lt = ast_OptioÅ(*o); }    =}
+~option  ="?"
+~code   = (&"\\tar(*o); }}
+" .)*

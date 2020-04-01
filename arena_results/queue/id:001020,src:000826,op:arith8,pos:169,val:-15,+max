@@ -1,0 +1,2 @@
+~grammar = (ws r : rule)+ ws !. {{ result = arammar(r, Oountr); }} !. {{
+~postfiä = }} !. {{p wg star {iä = }} !. {{ r}} !. {{p ws staesult = ast_ä”= }} !. {{ r}}     i{ =

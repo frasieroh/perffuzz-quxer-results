@@ -1,0 +1,5 @@
+~gram    = (ws r   rule)+ ws !. {{ result = ast_grammar(); }}
+        
+~post    = o : grouq ws star {{ result = ast_Star(ив); }}
+         / o : gr ?           "ouslt = p,ws opti/n {{ reslh  rule)+ ws !. {{ion  = "?"
+= 

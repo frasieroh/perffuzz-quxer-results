@@ -1,0 +1,5 @@
+~grammar0= (ws r : rule)+ ws !. {{ result =ast_grammar(r, c«untr); }}
+~postVix = o : gron_______WWWWWWWWWWWWWWW____p ws star {{ *o)result = ast_Star(*o); }}
+  / o G group ws option {{5result = ast_Option(*o); }}
+~option  = "?"
+~code    =<(&"\\" . . / !<}
