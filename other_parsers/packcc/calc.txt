@@ -1,0 +1,30 @@
+%prefix "calc"
+
+statement <- ws e : expression ws EOL { printf("answer=%d\n", e); }
+           / ( !EOL . )* EOL { printf("error\n"); }
+
+expression <- e : add { $$ = e; }
+
+add  <- l : mul "+" r : add { $$ = l + r; }
+      / l : mul "-" r : add { $$ = l - r; }
+      / o : mul { $$ = o; }
+
+mul  <- l : term "*" r : mul { $$ = l * r; }
+      / l : term "/" r : mul { $$ = l / r; }
+      / o : term { $$ = o; }
+
+term <- <[0-9]+> { $$ = atoi($1); }
+      / "(" e : expression ")" { $$ = e; }
+
+ws    <- [ \t]*
+
+EOL    <- "\n" / "\r\n" / "\r" / ";"
+
+%%
+
+int main(int argc, char** argv) {
+    calc_context_t *ctx = calc_create(NULL);
+    while (calc_parse(ctx, NULL));
+    calc_destroy(ctx);
+    return 0;
+}

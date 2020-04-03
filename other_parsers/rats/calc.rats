@@ -1,0 +1,26 @@
+module calc;
+option parser(SimpleParser);
+
+public void statement = ws e : expression ws !_ { System.out.println(e); }
+           / { System.out.println("error"); };
+
+Integer expression = yyValue : add;
+
+Integer add =  l : mul "+" r : add { yyValue = l + r; }
+      / l : mul "-" r : add { yyValue = l - r; }
+      / yyValue : mul;
+
+Integer mul = l : term "*" r : mul { yyValue = l * r; }
+      / l : term "/" r : mul { yyValue = l / r; }
+      / yyValue : term;
+
+Integer term = digits : [0-9]+ {
+		Integer total = 0;
+		for (Character elem : digits) {
+			total = 10 * total + Character.getNumericValue(elem);
+		}
+		yyValue = total;
+        }
+      / "(" yyValue : expression ")";
+
+void ws = [ \n\t]*;
